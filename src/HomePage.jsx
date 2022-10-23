@@ -33,21 +33,22 @@ export default function HomePage() {
       </p>
       <div>
         <textarea className="textarena">
-          The behavior of all objects can be described by saying that objects
-          tend to "keep on doing what they're doing" If at rest, they will
-          continue in this same state of rest. If in motion with an eastward
-          velocity of 5 m/s, they will continue in this same state of motion (5
-          m/s, East). If in motion with a leftward velocity of 2 m/s, they will
-          continue in this same state of motion (2 m/s, left). The state of
-          motion of an object is maintained as long as the object is not acted
-          upon by an unbalanced force. All objects resist changes in their state
-          of motion - they tend to "keep on doing what they're doing." There is
-          an important condition that must be met in order for the first law to
-          be applicable to any given motion. The condition is described by the
-          phrase "... unless acted upon by an unbalanced force." As the long as
-          the forces are not unbalanced - that is, as long as the forces are
-          balanced - the first law of motion applies. This concept of a balanced
-          versus and unbalanced force will be discussed in more detail
+          The behavior of all objects can be described by saying that all
+          objects tend to "keep on doing what they're doing" If at rest, they
+          will continue in this same state of rest. If in motion with an
+          eastward velocity of 5 m/s, they will continue in this same state of
+          motion (5 m/s, East). If in motion with a leftward velocity of 2 m/s,
+          they will continue in this same state of motion (2 m/s, left). The
+          state of motion of an object is maintained as long as the object is
+          not acted upon by an unbalanced force. All objects resist changes in
+          their state of motion - they tend to "keep on doing what they're
+          doing." There is an important condition that must be met in order for
+          the first law to be applicable to any given motion. The condition is
+          described by the phrase "... unless acted upon by an unbalanced
+          force." As the long as the forces are not unbalanced - that is, as
+          long as the forces are balanced - the first law of motion applies.
+          This concept of a balanced versus and unbalanced force will be
+          discussed in more detail
         </textarea>
       </div>
       <p>
