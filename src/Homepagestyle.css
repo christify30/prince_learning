@@ -1,0 +1,95 @@
+div {
+  margin: 0px;
+  padding: 0px;
+  background-color: aliceblue;
+}
+
+button {
+  padding: 5px;
+  width: 150px;
+
+  float: center;
+  margin-left: 350px;
+}
+
+/* .homepagedesign {
+  background-color: rgb(81, 236, 10);
+} */
+
+.firstheading {
+  margin-top: 0px;
+  margin-left: 100px;
+  font-size: 90px;
+  color: rgb(29, 185, 8);
+}
+
+/* .leaderboard {
+  border: none;
+  padding: 0.5rem 2rem;
+  /* font-size: 1.6rem; */
+/* 
+  font-family: inherit;
+  text-align: left;
+  width: 12rem;
+  border-radius: 10rem;
+  margin-left: 60rem;
+  color: inherit;
+  border: 1px solid #fff;
+  transition: all 0.3s;
+} */
+
+input {
+  height: 30px;
+  width: 650px;
+  align-items: center;
+  margin-left: 350px;
+  border-radius: 10px;
+}
+
+#heading {
+  margin-left: 350px;
+}
+.textarena {
+  resize: none;
+  align-content: center;
+  width: 150vh;
+  height: 10vh;
+  margin-left: 150px;
+  border: none;
+  border-radius: 5px;
+  background-color: inherit;
+}
+.scroller {
+  overflow-y: scroll;
+  scrollbar-color: green;
+  scrollbar-width: thin;
+  margin-left: 250px;
+}
+
+button {
+  background-color: inherit;
+  border-radius: 7px;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  color: rgb(0, 250, 0);
+}
+
+/* button :hover {
+  color: hotpink;
+} */
+
+.endingComment {
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.navigationbar {
+  position: relative;
+}

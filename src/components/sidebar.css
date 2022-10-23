@@ -1,8 +1,18 @@
 .side-bar {
-    width: 20vw;
-    height: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: black;
+  width: 20vw;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(24, 18, 53);
+  /* z-index: 0; */
+}
+
+.span {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 30px;
+  background-color: transparent;
+  color: #fff;
 }

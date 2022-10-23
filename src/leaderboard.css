@@ -1,0 +1,27 @@
+table,
+th,
+td {
+  margin: 0px 2px;
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 5px;
+  text-align: left;
+}
+
+th {
+  height: 40px;
+  border: none;
+}
+
+tr:hover {
+  background-color: #e5e5e5;
+  transition: background-color 0.5s;
+}
+
+.user {
+  width: 80px;
+}

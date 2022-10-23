@@ -1,0 +1,38 @@
+/* .homepagedesign {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+} */
+
+/* .Navigation {
+  display: flex;
+  align-items: left;
+  justify-content: space-between; */
+/* } */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(7, 116, 52);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  display: inline;
+  float: right;
+}
+
+li a:hover {
+  background-color: #111;
+  transition: background-color 0.5s;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}

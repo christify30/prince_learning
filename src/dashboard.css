@@ -1,0 +1,8 @@
+.section {
+  display: flex;
+}
+
+.pieData {
+  width: 30%;
+  margin-left: 500px;
+}
