@@ -20,9 +20,9 @@ export default function HomePage() {
       <h1 className="firstheading">
         Incite
         <sub
-          style={{ fontSize: "20px", fontFamily: "Gill Sans", color: "green" }}
+          style={{ fontSize: "22px", fontFamily: "Gill Sans", color: "green" }}
         >
-          a minimalist record tool for toolhub
+          a minimalist record tool for toolhub.
         </sub>
       </h1>
       <br />
