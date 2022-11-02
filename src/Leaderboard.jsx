@@ -1,7 +1,7 @@
 import React from "react";
 import "./leaderboard.css";
 import Nav from "./components/Nav";
-import { leaderboardlist, getNumberOfStars } from "./util/leaderboardlist";
+import { leaderboardlist, sortTypes} from "./util/leaderboardlist";
 
 export default function Leaderboard() {
   return (
@@ -14,21 +14,13 @@ export default function Leaderboard() {
       />
 
       <table id="table">
+        <caption>
+          Loggers Ranking. Thank you for using Toolhub, and come 🔙 anytime!
+        </caption>
         <thead>
           <tr>
-            <th>
-              <h3>
-                Loggers Ranking. Thank you for using Toolhub, and come 🔙
-                anytime!
-              </h3>
-            </th>
-          </tr>
-          <tr>
-            <th colSpan={3}>
-              <td>Username</td>
-              <td>score</td>
-              <td>Ranking</td>
-            </th>
+            <th>Username</th>
+            <th>score</th>
           </tr>
         </thead>
         <tbody>
@@ -36,9 +28,9 @@ export default function Leaderboard() {
             <tr>
               <td>{value.userName}</td>
               <td>{value.score}</td>
-              <td>{getNumberOfStars(value.score)}</td>
             </tr>
           ))}
+
         </tbody>
       </table>
     </div>

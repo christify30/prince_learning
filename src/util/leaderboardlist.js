@@ -85,8 +85,17 @@ export const leaderboardlist = [
   },
 ];
 
-export function getNumberOfStars(score) {
-  if (score < 30) return "⭐";
-  if (score >= 30 && score < 50) return "⭐⭐";
-  if (score >= 50) return "⭐⭐⭐";
-}
+export const sortTypes = {
+	up: {
+		class: 'sort-up',
+		fn: (a, b) => a.score - b.score
+	},
+	down: {
+		class: 'sort-down',
+		fn: (a, b) => b.score - a.score
+	},
+	default: {
+		class: 'sort',
+		fn: (a, b) => a
+	}
+};
